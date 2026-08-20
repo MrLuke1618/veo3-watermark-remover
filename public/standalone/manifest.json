@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "VEO3 Local Watermark Remover Pro",
+  "version": "1.0.0",
+  "description": "100% Client-Side AI Watermark Remover for Veo 3, Gemini, and Flow AI media using FFmpeg.wasm and Canvas Inpainting.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "VEO3 Watermark Remover Pro"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval' https://unpkg.com; object-src 'self';"
+  }
+}

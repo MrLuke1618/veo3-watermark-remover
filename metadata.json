@@ -1,0 +1,6 @@
+{
+  "name": "VEO3 Local Watermark Remover Pro",
+  "description": "Professional 100% client-side AI watermark remover for Flow AI/Omni, Veo 3, and Gemini videos and images with interactive magnifying glass ROI selector, batch queue manager, and multi-algorithm inpainting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
